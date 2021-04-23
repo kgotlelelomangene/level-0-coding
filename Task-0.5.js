@@ -1,5 +1,4 @@
 //Task 0.5
-console.log("\nTask 0.5 ");
 
 function areaOfATriangle(sideA ,sideB ,sideC ){
 
@@ -7,7 +6,7 @@ function areaOfATriangle(sideA ,sideB ,sideC ){
     var area;
     
     semiP = (sideA + sideB + sideC) / 2;
-    area = Math.floor(Math.sqrt(semiP * ((semiP - sideA)*(semiP - sideB)*(semiP - sideC))));
+    area = Math.sqrt(semiP * ((semiP - sideA)*(semiP - sideB)*(semiP - sideC)));
 
     return area;
 }

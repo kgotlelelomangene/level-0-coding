@@ -1,5 +1,4 @@
 //Task 0.10
-console.log("\nTask 0.10 ");
 
 function commonCharacters(str1, str2){
 
@@ -13,13 +12,9 @@ function commonCharacters(str1, str2){
         if (index !== -1) {
             arr2.splice(index, 1);
              
-            common = common + " " + arr1[i];
-            
+            common = common + ", " + arr1[i]; 
         }
     }
-
     return common;
-
 }
-
 console.log("Common letters: " + commonCharacters("house","computers"));

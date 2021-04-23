@@ -1,5 +1,4 @@
 //Task 0.9
-console.log("\nTask 0.9 ");
 
 function vowels(str){
 
