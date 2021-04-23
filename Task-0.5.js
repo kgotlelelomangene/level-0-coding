@@ -6,7 +6,7 @@ function areaOfATriangle(sideA ,sideB ,sideC ){
     var area;
     
     semiP = (sideA + sideB + sideC) / 2;
-    area = Math.floor(Math.sqrt(semiP * ((semiP - sideA)*(semiP - sideB)*(semiP - sideC))));
+    area = Math.sqrt(semiP * ((semiP - sideA)*(semiP - sideB)*(semiP - sideC)));
 
     return area;
 }

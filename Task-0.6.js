@@ -13,4 +13,4 @@ function maximumNum(num1, num2, num3){
     }
 }
 
-console.log(maximumNum(9,72,8) + " is the maximum number");
+console.log(maximumNum(9,72,8));

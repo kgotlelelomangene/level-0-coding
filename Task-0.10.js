@@ -12,7 +12,7 @@ function commonCharacters(str1, str2){
         if (index !== -1) {
             arr2.splice(index, 1);
              
-            common = common + " " + arr1[i]; 
+            common = common + ", " + arr1[i]; 
         }
     }
     return common;
