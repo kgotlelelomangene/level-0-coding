@@ -1,5 +1,4 @@
 //Task 0.1
-console.log("Task 0.1");
 
 var x = 0;
 var y = 1;

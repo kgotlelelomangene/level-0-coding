@@ -1,5 +1,4 @@
 //Task 0.7
-console.log("\nTask 0.7 ");
 
 function celsiusToFahrenheit(num){
   var fahrenheit = (num * (9/5)) + 32;

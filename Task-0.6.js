@@ -1,5 +1,4 @@
 //Task 0.6
-console.log("\nTask 0.6 ");
 
 function maximumNum(num1, num2, num3){
 

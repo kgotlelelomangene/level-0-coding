@@ -1,5 +1,4 @@
 //Task 0.5
-console.log("\nTask 0.5 ");
 
 function areaOfATriangle(sideA ,sideB ,sideC ){
 
