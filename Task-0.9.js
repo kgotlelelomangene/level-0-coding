@@ -2,21 +2,20 @@
 
 function vowels(str){
     var arr = str.split("");
-    //var isVowel = "";
-
-    //var vowel = str.match(/[aeiou]/gi);
-    
-    //vowel.forEach(x => {console.log(x) });
+    var temp_str = "";
 
     for(var i=0 ; i<arr.length ; i++){
         
-        var theIndex = arr.indexOf([i]);
-        var vowel = str.match(/[aeiou]/gi);
+        if(arr[i].match(/[aeiou]/gi)){
+            if(temp_str.match(arr[i]) == null){
 
-        if(theIndex = vowel){
-            console.log(vowel);
+                temp_str = temp_str + arr[i] + ",";
+            }
+           
         }
+        
     }
+    console.log("Vowels: " + temp_str) ;
 
 }
 
