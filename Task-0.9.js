@@ -7,16 +7,18 @@ function vowels(str){
     for(var i=0 ; i<arr.length ; i++){
         
         if(arr[i].match(/[aeiou]/gi)){
+
+            temp_str = temp_str.toLowerCase();
+
             if(temp_str.match(arr[i]) == null){
 
                 temp_str = temp_str + arr[i] + ",";
             }
-           
-        }
-        
+        } 
     }
-    console.log("Vowels: " + temp_str) ;
+    temp_str = temp_str.slice(0, -1);
 
+    console.log("Vowels: " + temp_str);
 }
 
-vowels("We are here to learn");
+vowels("We are here to learn!");

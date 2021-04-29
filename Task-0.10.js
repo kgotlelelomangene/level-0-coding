@@ -11,10 +11,13 @@ function commonCharacters(str1, str2){
         var index = arr2.indexOf(arr1[i]);
         if (index !== -1) {
             arr2.splice(index, 1);
-             
-            common = common + arr1[i] + ","; 
+
+                common = common + arr1[i] + ",";
         }
+        
     }
+    common = common.slice(0,-1); 
+
     return common;
 }
 console.log("Common letters: " + commonCharacters("house","computers"));
